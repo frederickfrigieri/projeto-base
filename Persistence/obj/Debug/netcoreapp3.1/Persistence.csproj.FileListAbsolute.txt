@@ -1,0 +1,17 @@
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Persistence.deps.json
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Persistence.runtimeconfig.json
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Persistence.runtimeconfig.dev.json
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Persistence.dll
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Persistence.pdb
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Domain.dll
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Shared.dll
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Domain.pdb
+/Users/frederickfrigieri/Projects/Porto/Persistence/bin/Debug/netcoreapp3.1/Shared.pdb
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.csprojAssemblyReference.cache
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.AssemblyInfoInputs.cache
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.AssemblyInfo.cs
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.csproj.CoreCompileInputs.cache
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.csproj.CopyComplete
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.dll
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.pdb
+/Users/frederickfrigieri/Projects/Porto/Persistence/obj/Debug/netcoreapp3.1/Persistence.genruntimeconfig.cache

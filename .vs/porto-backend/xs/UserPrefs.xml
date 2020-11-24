@@ -1,0 +1,66 @@
+﻿<Properties StartupConfiguration="{46FEA037-3F7C-465E-A881-AD79609949B4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Acesso/AcessoService.cs">
+    <Files>
+      <File FileName="Shared/Extensions/StringExtension.cs" Line="7" Column="19" />
+      <File FileName="Domain/Entities/PessoaFisica.cs" />
+      <File FileName="Shared/Domain/ContractValidationMessage.cs" />
+      <File FileName="Domain/Entities/Usuario.cs" />
+      <File FileName="Shared/Constant.cs" />
+      <File FileName="WebApi/Startup.cs" />
+      <File FileName="Shared/Extensions/ServiceAuthenticationJWT.cs" />
+      <File FileName="WebApi/Controllers/AcessoController.cs" />
+      <File FileName="WebApi/Controllers/PessoaFisicaController.cs" />
+      <File FileName="Service/Acesso/AcessoService.cs" Line="33" Column="33" />
+      <File FileName="Service/PessoaFisica/PessoaFisicaService.cs" />
+      <File FileName="Shared/ResponseApi.cs" />
+      <File FileName="Shared/Persistence/IRepository.cs" />
+      <File FileName="Persistence/Repository.cs" />
+      <File FileName="Service/Acesso/Dtos/DadosDeAcessoDto.cs" />
+      <File FileName="Service/PessoaFisica/Dtos/CadastrandoPessoaFisicaDto.cs" />
+      <File FileName="Service/PessoaFisica/Dtos/EditandoPessoaFisicaDto.cs" />
+      <File FileName="Service/PessoaFisica/Dtos/ListandoPessoaFisicaDto.cs" />
+      <File FileName="Service/Acesso/Dtos/UsuarioLogandoDto.cs" />
+      <File FileName="Persistence/Maps/UsuarioMap.cs" />
+      <File FileName="Shared/Extensions/PropertyExtension.cs" />
+      <File FileName="Persistence/Migrations/20201120224957_Init.cs" />
+      <File FileName="WebApi/Program.cs" />
+      <File FileName="WebApi/Properties/launchSettings.json" />
+      <File FileName="WebApi/appsettings.json" />
+      <File FileName="WebApi/appsettings.Development.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="porto-backend" expanded="True">
+            <Node name="Domain" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="Service" expanded="True">
+              <Node name="Acesso" expanded="True">
+                <Node name="Dtos" expanded="True" />
+                <Node name="AcessoService.cs" selected="True" />
+              </Node>
+              <Node name="PessoaFisica" expanded="True">
+                <Node name="Dtos" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Shared" expanded="True" />
+            <Node name="WebApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/frederickfrigieri/Projects/Porto/WebApi/Controllers/PessoaFisicaController.cs" relfile="WebApi/Controllers/PessoaFisicaController.cs" line="28" column="13" />
+      <Breakpoint file="/Users/frederickfrigieri/Projects/Porto/WebApi/Controllers/PessoaFisicaController.cs" relfile="WebApi/Controllers/PessoaFisicaController.cs" line="38" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
