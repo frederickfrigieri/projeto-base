@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/frederickfrigieri/Projects/Porto/WebApi/WebApi.csproj": {}
+    "C:\\source\\Porto\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj": {
+    "C:\\source\\Porto\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\source\\Porto\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj",
-        "packagesPath": "/Users/frederickfrigieri/.nuget/packages/",
-        "outputPath": "/Users/frederickfrigieri/Projects/Porto/Domain/obj/",
+        "projectPath": "C:\\source\\Porto\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\fred\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Porto\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/frederickfrigieri/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj"
+              "C:\\source\\Porto\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\source\\Porto\\Shared\\Shared.csproj"
               }
             }
           }
@@ -61,41 +63,46 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/frederickfrigieri/Projects/Porto/Persistence/Persistence.csproj": {
+    "C:\\source\\Porto\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederickfrigieri/Projects/Porto/Persistence/Persistence.csproj",
+        "projectUniqueName": "C:\\source\\Porto\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "/Users/frederickfrigieri/Projects/Porto/Persistence/Persistence.csproj",
-        "packagesPath": "/Users/frederickfrigieri/.nuget/packages/",
-        "outputPath": "/Users/frederickfrigieri/Projects/Porto/Persistence/obj/",
+        "projectPath": "C:\\source\\Porto\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\fred\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Porto\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/frederickfrigieri/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj"
+              "C:\\source\\Porto\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\source\\Porto\\Domain\\Domain.csproj"
               }
             }
           }
@@ -142,44 +149,49 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/frederickfrigieri/Projects/Porto/Service/Service.csproj": {
+    "C:\\source\\Porto\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederickfrigieri/Projects/Porto/Service/Service.csproj",
+        "projectUniqueName": "C:\\source\\Porto\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "/Users/frederickfrigieri/Projects/Porto/Service/Service.csproj",
-        "packagesPath": "/Users/frederickfrigieri/.nuget/packages/",
-        "outputPath": "/Users/frederickfrigieri/Projects/Porto/Service/obj/",
+        "projectPath": "C:\\source\\Porto\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\fred\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Porto\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/frederickfrigieri/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Domain/Domain.csproj"
+              "C:\\source\\Porto\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\source\\Porto\\Domain\\Domain.csproj"
               },
-              "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj"
+              "C:\\source\\Porto\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\source\\Porto\\Shared\\Shared.csproj"
               }
             }
           }
@@ -204,33 +216,38 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj": {
+    "C:\\source\\Porto\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj",
+        "projectUniqueName": "C:\\source\\Porto\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj",
-        "packagesPath": "/Users/frederickfrigieri/.nuget/packages/",
-        "outputPath": "/Users/frederickfrigieri/Projects/Porto/Shared/obj/",
+        "projectPath": "C:\\source\\Porto\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\fred\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Porto\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/frederickfrigieri/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -287,47 +304,52 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/frederickfrigieri/Projects/Porto/WebApi/WebApi.csproj": {
+    "C:\\source\\Porto\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/frederickfrigieri/Projects/Porto/WebApi/WebApi.csproj",
+        "projectUniqueName": "C:\\source\\Porto\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/frederickfrigieri/Projects/Porto/WebApi/WebApi.csproj",
-        "packagesPath": "/Users/frederickfrigieri/.nuget/packages/",
-        "outputPath": "/Users/frederickfrigieri/Projects/Porto/WebApi/obj/",
+        "projectPath": "C:\\source\\Porto\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\fred\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Porto\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/frederickfrigieri/.config/NuGet/NuGet.Config"
+          "C:\\Users\\fred\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/frederickfrigieri/Projects/Porto/Persistence/Persistence.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Persistence/Persistence.csproj"
+              "C:\\source\\Porto\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\source\\Porto\\Persistence\\Persistence.csproj"
               },
-              "/Users/frederickfrigieri/Projects/Porto/Service/Service.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Service/Service.csproj"
+              "C:\\source\\Porto\\Service\\Service.csproj": {
+                "projectPath": "C:\\source\\Porto\\Service\\Service.csproj"
               },
-              "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj": {
-                "projectPath": "/Users/frederickfrigieri/Projects/Porto/Shared/Shared.csproj"
+              "C:\\source\\Porto\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\source\\Porto\\Shared\\Shared.csproj"
               }
             }
           }
@@ -383,7 +405,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

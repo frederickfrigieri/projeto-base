@@ -6,7 +6,9 @@ using System.Text;
 using Domain.Entities;
 using Microsoft.IdentityModel.Tokens;
 using Service.Acesso.Dtos;
+using Service.Email;
 using Shared;
+using Shared.Infra;
 using Shared.Persistence;
 
 namespace Service.Acesso
@@ -14,6 +16,7 @@ namespace Service.Acesso
     public interface IAcessoService
     {
         string ObterToken(UsuarioLogandoDto dto);
+        ResponseApi RecuperarSenha(string email, IEnviaEmailService enviaEmailService, IEmailLayoutRecuperarSenha emailLayoutRecuperarSenha);
     }
 
     public class AcessoService : IAcessoService
@@ -51,6 +54,18 @@ namespace Service.Acesso
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
             return tokenHandler.WriteToken(token);
+        }
+
+        public ResponseApi RecuperarSenha(string email, IEnviaEmailService enviaEmailService, IEmailLayoutRecuperarSenha emailLayoutRecuperarSenha)
+        {
+            var usuario = _repository.QueryNoTracking<Usuario>().Where(x => x.Email.Equals(email)).SingleOrDefault();
+
+            if (usuario == null)
+                return ResponseApi.Return("Email não encontrado.");
+
+            enviaEmailService.Enviar(new DestinatarioDto(usuario.Nome, usuario.Email), emailLayoutRecuperarSenha.Obter(usuario.Nome));
+
+            return ResponseApi.Return();
         }
     }
 }

@@ -25,5 +25,13 @@ namespace WebApi.Controllers
 
             return Ok(token);
         }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Route("recuperar-senha")]
+        public ActionResult RecuperarSenha(string email)
+        {
+
+        }
     }
 }

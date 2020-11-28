@@ -10,3 +10,15 @@
 /Users/frederickfrigieri/Projects/Porto/Shared/obj/Debug/netcoreapp3.1/Shared.pdb
 /Users/frederickfrigieri/Projects/Porto/Shared/obj/Debug/netcoreapp3.1/Shared.genruntimeconfig.cache
 /Users/frederickfrigieri/Projects/Porto/Shared/obj/Debug/netcoreapp3.1/Shared.csprojAssemblyReference.cache
+C:\source\Porto\Shared\bin\Debug\netcoreapp3.1\Shared.deps.json
+C:\source\Porto\Shared\bin\Debug\netcoreapp3.1\Shared.runtimeconfig.json
+C:\source\Porto\Shared\bin\Debug\netcoreapp3.1\Shared.runtimeconfig.dev.json
+C:\source\Porto\Shared\bin\Debug\netcoreapp3.1\Shared.dll
+C:\source\Porto\Shared\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.csprojAssemblyReference.cache
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfoInputs.cache
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.AssemblyInfo.cs
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.dll
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.pdb
+C:\source\Porto\Shared\obj\Debug\netcoreapp3.1\Shared.genruntimeconfig.cache
