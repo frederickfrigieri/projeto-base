@@ -1,0 +1,22 @@
+<button (click)="abrirModal(template)" type="button" class="btn btn-outline-danger">
+    {{descricaoBotao}}
+</button>
+<ng-template #template>
+    <div class="modal-body text-center">
+        <p>
+            <strong>Deseja realmente {{descricaoBotao}}?</strong>
+        </p>
+        <div class="row">
+            <div class="col-6">
+                <button (click)="emitirConfiracao(true)" type="button" class="btn btn-primary btn-sm my-2 mx-2">
+                    Sim
+                </button>
+            </div>
+            <div class="col-6">
+                <button (click)="emitirConfiracao(false)" type="button" class="btn btn-danger btn-sm  my-2 mx-2">
+                    Não
+                </button>
+            </div>
+        </div>
+    </div>
+</ng-template>

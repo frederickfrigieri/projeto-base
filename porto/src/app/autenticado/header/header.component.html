@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-around fundo">
+    <div class="pl-3 pt-2 mr-5">
+        <!-- <img src="assets/img/logo-header.png"> -->
+        <a class="navbar-brand" routerLink="bem-vindo">LOGO</a>
+    </div>
+    <div class="p-2 flex-grow-1 ml-2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Pessoa Física</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" routerLink="pessoa-fisica/novo">Novo</a>
+                            <a class="dropdown-item" routerLink="pessoa-fisica/lista">Lista</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="pt-3 pr-3">
+        <button class="btn btn-primary btn-sm my-2 my-sm-0" type="submit" (click)="sair()">Sair</button>
+    </div>
+</div>

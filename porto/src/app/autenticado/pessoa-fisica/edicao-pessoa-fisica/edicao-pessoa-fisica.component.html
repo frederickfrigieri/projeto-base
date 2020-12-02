@@ -1,0 +1,19 @@
+<div class="container">
+
+    <app-titulo titulo="Editando Pessoa Física"></app-titulo>
+
+    <div class="col-sm-8">
+        <form [formGroup]="formGroup" (ngSubmit)="submit()">
+            <app-campo-texto descricao='Nome' nomeControle='nome' [formulario]="formGroup"></app-campo-texto>
+            <app-campo-texto descricao='Sobrenome' nomeControle='sobrenome' [formulario]="formGroup"></app-campo-texto>
+            <app-campo-data descricao='Data de nascimento' nomeControle='dataNascimento' [formulario]="formGroup">
+            </app-campo-data>
+            <app-campo-texto descricao='CPF' nomeControle='cpf' mascara="000.000.000-99" [formulario]="formGroup">
+            </app-campo-texto>
+
+
+            <button type="submit" class="btn btn-primary mt-4">Salvar</button>
+        </form>
+
+    </div>
+</div>

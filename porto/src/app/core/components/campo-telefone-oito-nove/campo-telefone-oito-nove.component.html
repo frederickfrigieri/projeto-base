@@ -1,0 +1,6 @@
+<div [formGroup]="formulario" class="form-group" [ngClass]="formulario.addErrorGroup(nomeControle)">
+    <label [for]="nomeControle">{{descricao}}</label>
+    <input type="text" [placeholder]="descricao" class="form-control"
+        [formControlName]="nomeControle" (change)="onChange()" telefone8Ou9 />
+    <error-messages [control]="formulario.controls[nomeControle]"></error-messages>
+</div>

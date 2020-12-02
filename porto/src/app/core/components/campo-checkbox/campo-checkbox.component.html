@@ -1,0 +1,7 @@
+<div class="form-group"  [ngClass]="formulario.addErrorGroup(nomeControle)" [formGroup]="formulario">
+    <label>{{descricao}}</label>
+    <div *ngFor="let c of colecao">
+        <input (click)="onClicou($event.target)" [checked]="c.checked" [value]="c.id" type="checkbox" (change)="onChange()">&nbsp;&nbsp;{{c.descricao}}
+    </div>
+    <error-messages [control]="formulario.controls[nomeControle]"></error-messages>
+</div>
