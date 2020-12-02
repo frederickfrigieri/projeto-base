@@ -12,3 +12,17 @@
 /Users/frederickfrigieri/Projects/Porto/Service/obj/Debug/netcoreapp3.1/Service.csproj.CopyComplete
 /Users/frederickfrigieri/Projects/Porto/Service/obj/Debug/netcoreapp3.1/Service.dll
 /Users/frederickfrigieri/Projects/Porto/Service/obj/Debug/netcoreapp3.1/Service.pdb
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Shared.dll
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\source\Porto\Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\source\Porto\Service\obj\Debug\netcoreapp3.1\Service.pdb
