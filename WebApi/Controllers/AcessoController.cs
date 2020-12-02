@@ -31,7 +31,7 @@ namespace WebApi.Controllers
         [Route("recuperar-senha")]
         public ActionResult RecuperarSenha(string email)
         {
-
+            return null;
         }
     }
 }
