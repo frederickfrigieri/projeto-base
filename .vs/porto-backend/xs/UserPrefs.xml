@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{46FEA037-3F7C-465E-A881-AD79609949B4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Acesso/AcessoService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/appsettings.Development.json">
     <Files>
       <File FileName="Shared/Extensions/StringExtension.cs" Line="7" Column="19" />
       <File FileName="Domain/Entities/PessoaFisica.cs" />
@@ -25,8 +25,8 @@
       <File FileName="Persistence/Migrations/20201120224957_Init.cs" />
       <File FileName="WebApi/Program.cs" />
       <File FileName="WebApi/Properties/launchSettings.json" />
-      <File FileName="WebApi/appsettings.json" />
-      <File FileName="WebApi/appsettings.Development.json" />
+      <File FileName="WebApi/appsettings.json" Line="3" Column="24" />
+      <File FileName="WebApi/appsettings.Development.json" Line="3" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -38,7 +38,6 @@
             <Node name="Service" expanded="True">
               <Node name="Acesso" expanded="True">
                 <Node name="Dtos" expanded="True" />
-                <Node name="AcessoService.cs" selected="True" />
               </Node>
               <Node name="PessoaFisica" expanded="True">
                 <Node name="Dtos" expanded="True" />
@@ -47,6 +46,9 @@
             <Node name="Shared" expanded="True" />
             <Node name="WebApi" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
